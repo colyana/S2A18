@@ -1,0 +1,130 @@
+html, body,figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+  }
+  
+  figcaption {
+    display: none; 
+}
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    background-color: #252525;
+    width: 1100px;
+    border-radius: 8px;
+}
+
+.container .titulo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 42px;
+}
+
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 73px;
+    margin-bottom: 46px;
+}
+
+.container .usuarios ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .usuarios ul li{
+    margin: 16px;
+    /*border-radius: 8px solid #252525; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    flex-wrap: wrap;
+}
+}
+
+.container .usuarios ul li figure{
+    height: 160px;
+    border: 2px transparent white;
+}
+
+.container .usuarios ul li .adicionarPerfil{
+
+}
+
+.container .usuarios ul li p{
+    color: #9C9C9C;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 16px;
+
+}
+
+.container .usuarios .adicionarPerfil{
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .configuracoes{
+    display: flex;
+    justify-content: center;
+    margin: 102px;
+}
+
+.container .configuracoes h2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 14px 44px 15px 44px;
+    border: 2px solid white;
+    width: 220px;
+}
+
+.container .usuarios li img:hover{
+    -webkit-transform:scale(1.2); 
+      -moz-transform:scale(1.2); 
+        -o-transform:scale(1.2);
+       	   transform:scale(1.2);
+
+
+}
+
+/* .container .usuarios li img:hover::border{
+     opacity: 1;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    }
+} */
+
+.container .configuracoes h2:hover{
+background-color: white;
+color: #1E1E20
+}
